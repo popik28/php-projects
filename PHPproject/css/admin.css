@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+img {
+     display: block;
+    /* margin-left: auto; */
+    margin-right: auto; 
+    height: 50px;
+    width: 50px;
+  }
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background-color: #2d4986;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #1027A1;
+}
+
+.btn-secondary {
+    background-color: #559D2B;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #107510;
+}
+
+.btn-danger {
+    background-color: #e44d4d;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CB5A44;
+}
+
+.success {
+    color: #266841;
+    font-weight: bold;
+}
+
+.error {
+    color: #ff4757;
+}
+
+.tbl-30 {
+    width: 30%;
+}
+
+/* CSS For Menu*/
+.menu ul {
+    list-style-type: none;
+   
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4f6662;
+}
+
+.menu ul li a:hover {
+    color: #a09db9;
+
+}
+
+.menu {
+    border-bottom: 1px solid gray;
+    background-color: #ececec;
+}
+
+/* CSS For Main content*/
+.Main-content {
+    padding: 3% 0;
+    background-color: #e9e8b8;
+    flex-grow: 1;
+
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS For Footer*/
+.footer {
+    border-top: 1px solid gray;
+    background-color: #1b1a1a;
+    color: #e9e8b8;
+    text-align: center;
+    margin-top: auto;
+}
+
+*{
+    box-sizing: border-box ;
+    }
+    
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+   
+  
+    
+    
+    
+    
